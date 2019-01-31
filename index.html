@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>Teddy World</title>
+</head>
+<body>
+    <div class="container">
+        <!--Header contains Navbar and logo-->
+        <div class="container">
+            <nav class="navbar fixed-top bg-dark navbar-expand-sm navbar-dark">
+                <div class="container">
+                    <a class="navabar-brand" href="#">
+                        <img src="images/logo.png" style="width:6rem;" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item mr-3">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item mr-3">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item mr-3">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item mr-3">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item dropdown mr-3">
+                                <a class="nav-link dropdown-toggler" data-toggle="dropdown" href="#"><i class="fas fa-user-alt mr-2"></i>Account</a>
+                                <div class="dropdown-menu bg-dark">
+                                    <a href="#" class="dropdown-item text-light"><i class="fas fa-cog mr-2"></i>Settings</a>
+                                    <a href="#" class="dropdown-item text-light"><i class="far fa-user mr-2"></i>Update Profile</a>
+                                    <a href="#" class="dropdown-item text-light"><i class="fas fa-shopping-cart mr-2"></i>cart</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a href="#" class="dropdown-item text-light"><i class="fas fa-sign-out-alt mr-2"></i>Log out</a>
+                                </div>
+                            </li>
+                        </ul>
+                    <!--<form class="form-inline">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <button class="btn btn-outline-light"><i class="fas fa-search"></i></button>
+                        </form>-->
+                    </div>
+                </div>
+            </nav>
+        </div>
+        
+        <!--Hero Banner-->
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="images/heroimage.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/herobanner2.png" alt="Second slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        
+        <!--Three columns-->
+            <div class="container-fluid rounded mt-2" style="background-color: rgb(104, 39, 9);">
+                <div class="row">
+                    <div class="col-xs-4 col-sm-12 col-md-4">
+                        <div class="card mt-2" style="width:100%;">
+                            <img class="card-img-top" src="images/animal.jpg" alt="animals"/>
+                            <div class="card-body">
+                                <h4 class="card-title"><a href="#">Animal Soft Teddys</a></h4>
+                                <p class="card-subtitle">Teddy Bear Friends have a huge range of quality soft toy animals including wild beasts, woodland and farm animals, plus a great range of childrens pet toys. Gorgeous gifts for all ages.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 col-sm-12 col-md-4">
+                        <div class="card mt-2" style="width:100%;">
+                            <img class="card-img-top" src="images/get.jpg" alt="wellsoon"/>
+                            <div class="card-body">
+                                <h4 class="card-title"><a href="#">Get Well Soon Teddys</a></h4>
+                                <p class="card-subtitle">Send some cheer to a friend or loved one who is looking to get better. We've got loads of different get well teddy bears and soft toys to nurse someone back to full fitness and help them get well soon.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 col-sm-12 col-md-4 mb-4">
+                        <div class="card mt-2" style="width:100%;">
+                            <img class="card-img-top" src="images/teddy.jpg" alt="meddy"/>
+                            <div class="card-body">
+                                <h4 class="card-title"><a href="#">Meddy Teddy Bears</a></h4>
+                                <p class="card-subtitle">Meddy Teddy is a role model and compassionate buddy for young ones,All bears featured highest safety. He comes wearing one pair of zen white yoga pants. Meddy Teddy is 14.5 inches tall. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!--Two columns-->
+            <div class="container-fluid rounded bg-secondary mt-2">
+                <div class="row rounded py-2">
+                    <div class="col-xs-6 col-sm-12 col-md-6 my-2">
+                        <div class="card " style="background-color: rgb(190, 148, 129); height:27rem;">
+                            <h5 class="display-4">Warm the heart of your dearest one</h5>
+                            <p class="lead">Choose a cuddly companion for the one you hold dear. who loves to travel, Martie, the 5 ft tall plush bear who can listen your stories, & give you a big hug, and Toby</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-12 col-md-6 my-2">
+                        <div class="card" style="background-color: rgb(190, 148, 129);">
+                            <div class="row mx-2 my-5">
+                                <button type="button" class="btn btn-danger btn-lg btn-block">Shop By Size</button>    
+                            </div>
+                            <div class="row mx-2 my-5">
+                                <button type="button" class="btn btn-danger btn-lg btn-block">Shop By Color</button>
+                            </div>
+                            <div class="row mx-2 my-5">
+                                <button type="button" class="btn btn-danger btn-lg btn-block">Shop By Event</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!--Footer-->
+        <div class="container-fluid mt-2 rounded" style="background-color: rgb(104, 39, 9);">
+            <div class="row pt-4">
+                <div class="col-sm-3">
+                    <h3 class="display-5" style="color: rgb(211, 64, 89);">Teddybear</h3>
+                    <p><a href="#" class="text-white">Home</a></p>
+                    <p><a href="#" class="text-white">About us</a></p>
+                    <p><a href="#" class="text-white">Useful Links</a></p>
+                </div>
+                <div class="col-sm-3">
+                    <h3 class="display-5" style="color: rgb(211, 64, 89);">Navigate</h3>
+                    <p><a href="#" class="text-white">Shipping </a></p>
+                    <p><a href="#" class="text-white">FAQ</a></p> 
+                    <p><a href="#" class="text-white">Blog</a></p>
+                    <p><a href="#" class="text-white">Returns</a></p>
+                    <p><a href="#" class="text-white">Wholesale</a></p>
+                    <p><a href="#" class="text-white">Privacypolicy</a></p>  
+                </div>
+                <div class="col-sm-3">
+                    <h3 class="display-5" style="color: rgb(211, 64, 89);">Contact Us</h3>
+                    <address class="text-white">070 N Kraemer Pl Anaheim, CA 92806 Call us at 714-632-8680</address>
+                </div>
+                <div class="col-sm-3">
+                    <h3 class="dispaly-5" style="color: rgb(211, 64, 89);">Social Media</h3>
+                    <div>
+                        <i class="fab fa-facebook-square" style="font-size:2rem; color:#ddd;"></i>
+                        <P style="color:white;font-size:1rem;"><a href="#" class="text-white">Facebook</a></P>
+                    </div>
+                    <div>
+                        <i class="fab fa-twitter-square" style="font-size:2rem; color:#ddd;"></i>
+                        <P style="color:white;font-size:1rem;"><a href="#" class="text-white">Twitter</a></P>
+                    </div>
+                    <div>
+                    <i class="fab fa-youtube" style="font-size:2rem; color:#ddd;"></i>
+                    <P style="color:white;font-size:1rem;"><a href="#" class="text-white">Youtube</a></P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--Script js and jquery files-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
